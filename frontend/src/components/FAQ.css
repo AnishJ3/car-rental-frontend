@@ -1,0 +1,51 @@
+.faq {
+    padding: 4em 1em;
+    background-color: #f9f9f9; /* Optional: background color for the FAQ section */
+    text-align: center;
+  }
+  
+  .faq h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+  }
+  
+  .faq-item {
+    margin: 1em 0;
+    border: 1px solid #ddd; /* Border around each FAQ item */
+    border-radius: 8px; /* Rounded corners */
+    transition: box-shadow 0.3s; /* Smooth shadow transition */
+  }
+  
+  .faq-item:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    cursor: pointer;
+    background-color: #fff; /* White background for question */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+  }
+  
+  .faq-question:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+  }
+  
+  .faq-icon {
+    margin-left: 10px; /* Space between question text and icon */
+    transition: transform 0.3s; /* Smooth rotation transition */
+  }
+  
+  .faq-icon.active {
+    transform: rotate(180deg); /* Rotate icon when active */
+  }
+  
+  .faq-answer {
+    padding: 1em;
+    background-color: #f9f9f9; /* Same as section background */
+    border-top: 1px solid #ddd; /* Top border between question and answer */
+  }
+  

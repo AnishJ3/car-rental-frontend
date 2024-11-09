@@ -1,0 +1,270 @@
+/* Main Container */
+
+/* Add this to your App.css or main CSS file */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.home {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Hero Section */
+
+/*   
+  .hero {
+
+    background: url('../images/s1.jpg') center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5em;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+  } */
+  
+  .cta-button {
+    background-color: #f9c74f;
+    color: #333;
+    padding: 0.8em 2em;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #f9844a;
+  }
+  
+  /* Services Section */
+  .services {
+    text-align: center;
+    padding: 4em 1em;
+  }
+  
+  .services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+  }
+  
+  .service-cards {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .service-card {
+    width: 250px;
+    padding: 1.5em;
+    background: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .service-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1em;
+  }
+  
+  .service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+  }
+  
+  .service-card p {
+    color: #666;
+  }
+  
+  /* About Us Section */
+  .about {
+    padding: 4em 1em;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 4em 1em;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    background-color: #f9c74f;
+    color: #333;
+    padding: 0.8em 2em;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #f9844a;
+  }
+/*   
+  .hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  } */
+  
+  .hero-slide img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-btn {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    background-color: #ff6b35;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .hero-btn:hover {
+    background-color: #ff8c5f;
+  }
+  
+  .hero-section {
+    position: relative;
+    width: 100%;
+    height: 550px; /* Adjust this as needed */
+    overflow: hidden;
+  }
+  
+  .hero-slide img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the space while maintaining aspect ratio */
+  }
+  
+  .hero-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  
+
+  .customer-reviews {
+    text-align: center;
+    padding: 4em 1em;
+    background-color: #f9f9f9; /* Optional: background color for the reviews section */
+  }
+  
+  .customer-reviews h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+  }
+  
+  .review-slide {
+    padding: 2em;
+    background: #fff; /* White background for review slides */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex; /* Use flexbox for layout */
+    /* flex-direction: column; */
+     /* Stack elements vertically */
+    /* align-items: center; */
+     /* Center align items */
+    justify-items: center;
+    border-radius: 15%;
+  }
+  
+  .review-slide p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-style: italic; /* Italics for review text */
+  }
+  
+  .review-slide h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .rating {
+    font-size: 1rem;
+    color: #ffcc00; /* Gold color for the rating */
+  }
+  
+  /* Style for reviewer images */
+  .reviewer-image {
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image round */
+    margin-bottom: 1rem; /* Spacing below the image */
+    object-fit: cover; /* Ensure the image covers the area while maintaining aspect ratio */
+  }
+  
